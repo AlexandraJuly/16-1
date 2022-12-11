@@ -30,6 +30,10 @@ footer {
             color: #24A3FF;
         }
 
+        .job:hover {
+            color: deeppink;
+        }
+
         h5 {
             font-style: normal;
             font-weight: 700;
@@ -399,6 +403,10 @@ footer {
                 }
             }
 
+            a:hover {
+                color: deeppink;
+            }
+
             .place {
                 align-items: center;
                 display: flex;
@@ -439,6 +447,10 @@ footer {
                     padding-top: 0;
                     padding-bottom: 0;
                     display: inline-flex;
+                }
+
+                a:hover {
+                    color: deeppink;
                 }
             }
         }
@@ -506,12 +518,20 @@ footer {
                 
             }
 
+            .tel:hover {
+                color: deeppink;
+            }
+
             .post {
                 font-style: normal;
                 font-weight: 700;
                 font-size: 16px;
                 line-height: 20px;
                 color: #24A3FF;
+            }
+
+            .post:hover {
+                color: deeppink;
             }
         }
     }

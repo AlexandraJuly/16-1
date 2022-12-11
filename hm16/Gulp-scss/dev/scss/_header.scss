@@ -80,7 +80,10 @@
                 @media (min-width: 1024px){
                     padding-bottom: 0px;
                 }
-    
+
+                .plase:hover {
+                    color: deeppink;
+                }
 
                 .plase {
                     font-style: normal;
@@ -104,6 +107,10 @@
                     border-radius: 100%;
                     margin: 0 6px;
                     margin-top: 6px;
+                }
+
+                .phone:hover {
+                    color: deeppink;
                 }
 
                 .phone {
@@ -266,6 +273,10 @@
                                 font-size: 16px;
                                 line-height: 20px;
                                 color: #FFFFFF;
+                            }
+
+                            a:hover {
+                                color: deeppink;
                             }
                         }
                     }

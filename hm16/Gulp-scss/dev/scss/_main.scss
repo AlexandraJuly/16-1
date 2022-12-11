@@ -256,6 +256,10 @@
             order: 0;
             flex-grow: 0;
         }
+
+        a:hover {
+            color: deeppink;
+        }
     
         & h3 {
             font-style: normal;
@@ -500,6 +504,10 @@
                         padding-bottom: 4px;
                     }
 
+                    a:hover {
+                        color: deeppink;
+                    }
+
                     .text{
                         font-style: normal;
                         font-weight: 700;
@@ -525,6 +533,10 @@
                         align-self: stretch;
                     }
 
+                    .name:hover {
+                        color: deeppink;
+                    }
+
                     .job {
                         font-style: normal;
                         font-weight: 400;
@@ -533,6 +545,10 @@
                         color: #B3B3BA;
                         flex: none;
                         align-self: stretch;
+                    }
+
+                    .job:hover {
+                        color: deeppink;
                     }
                 }
             }
